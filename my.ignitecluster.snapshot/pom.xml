@@ -5,25 +5,10 @@
     <artifactId>my.ignitecluster.top</artifactId>
     <version>0.0.1-SNAPSHOT</version>
   </parent>
-  <artifactId>my.ignitecluster.datasource</artifactId>
-    
+  <artifactId>my.ignitecluster.snapshot</artifactId>
+  
+  
   <dependencies>
-  	<dependency>
-  		<groupId>my.study</groupId>
-  		<artifactId>my.ignitecluster.api</artifactId>
-  		<version>0.0.1-SNAPSHOT</version>
-  	</dependency>
-  		
-		<dependency>
-			<groupId>org.mybatis.spring.boot</groupId>
-			<artifactId>mybatis-spring-boot-starter</artifactId>
-			<version>1.1.1</version>
-		</dependency>
-    <dependency>
-			<groupId>mysql</groupId>
-			<artifactId>mysql-connector-java</artifactId>
-		</dependency>		
-		
 		<!-- https://mvnrepository.com/artifact/org.apache.ignite/ignite-indexing -->
 		<dependency>
 		    <groupId>org.apache.ignite</groupId>
@@ -54,6 +39,20 @@
 		    <artifactId>h2</artifactId>
 		    <version>1.4.195</version>
 		</dependency>
+		
+
+		<dependency>
+			<groupId>my.study</groupId>
+			<artifactId>my.ignitecluster.common</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
+		<dependency>
+			<groupId>my.study</groupId>
+			<artifactId>my.ignitecluster.api</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
+		
   </dependencies>
+
   
 </project>

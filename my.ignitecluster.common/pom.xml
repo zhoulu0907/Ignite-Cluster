@@ -6,4 +6,19 @@
     <version>0.0.1-SNAPSHOT</version>
   </parent>
   <artifactId>my.ignitecluster.common</artifactId>
+  
+  <dependencies>
+		<!-- https://mvnrepository.com/artifact/org.apache.ignite/ignite-core -->
+		<dependency>
+		    <groupId>org.apache.ignite</groupId>
+		    <artifactId>ignite-core</artifactId>
+		    <version>${ignite.version}</version>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/org.apache.ignite/ignite-spring -->
+		<dependency>
+		    <groupId>org.apache.ignite</groupId>
+		    <artifactId>ignite-spring</artifactId>
+		    <version>${ignite.version}</version>
+		</dependency>
+  </dependencies>
 </project>
