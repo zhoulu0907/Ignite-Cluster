@@ -1,12 +1,10 @@
-package my.ignitecluster.datasource;
+package my.ignitecluster.snapshot;
 
-import org.mybatis.spring.annotation.MapperScan;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.ImportResource;
 
 @SpringBootApplication
-@MapperScan("my.ignitecluster.datasource.mapper")
 @ImportResource("applicationContext.xml")
 public class Bootstrapper {
 
